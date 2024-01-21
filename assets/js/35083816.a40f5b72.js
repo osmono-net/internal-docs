@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkosmono_internal=self.webpackChunkosmono_internal||[]).push([[4022],{3471:o=>{o.exports=JSON.parse('{"permalink":"/internal-docs/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
