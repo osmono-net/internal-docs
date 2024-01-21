@@ -17,6 +17,8 @@ const config: Config = {
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "osmono-net", // Usually your GitHub org/user name.
 	projectName: "internal-docs", // Usually your repo name.
+	deploymentBranch: "gh-pages",
+	trailingSlash: false,
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
