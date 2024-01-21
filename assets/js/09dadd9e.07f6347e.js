@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkosmono_internal=self.webpackChunkosmono_internal||[]).push([[6002],{4978:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/internal-docs/blog/tags/hola","allTagsPath":"/internal-docs/blog/tags","count":1,"unlisted":false}')}}]);
