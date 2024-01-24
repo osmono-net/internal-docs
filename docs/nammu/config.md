@@ -1,7 +1,11 @@
-
 # Remote Configuration
 
 Configuration in nammu is done in one of two stages:
+
+
+## Pre-Intial Stage
+
+When we create an installer for an agent, we embed a customer ID into the installer via TODO method. For now, we are just gonna pretend theres a nice customer_id.txt file on disc in X path. This is obviously insecure
 
 ## Initial Stage
 
@@ -10,7 +14,6 @@ This request includes important information about the machine. The agent is then
 
 The agent will then send a `GET` to `/agent/{id}/config`. The API server will create a default config for
 the agent, depending on the information received in the registration request.
-
 
 The agent uses this config to determine its actions going forward. The agent is now in 'service' mode, where it will continually run, and receive instructions from the server.
 
