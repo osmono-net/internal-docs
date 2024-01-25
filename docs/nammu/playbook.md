@@ -10,7 +10,13 @@ The agent will then determine if the request is for itself via the ID.
 Then, the agent will execute a certain script. An example `Request` is seen below:
 
 ```json
-TODO
+{
+  "Id": "13e69de5-1c56-4a95-8d4a-9f8913fa1abb",
+  "Payload": {
+    "Type": 0,
+    "ScriptData": "SCRIPT DATA"
+  }
+}
 ```
 
 TODO
